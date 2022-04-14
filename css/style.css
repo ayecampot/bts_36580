@@ -1,0 +1,101 @@
+/* Reseteo */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Variables*/
+:root {
+  --lav-light: #f2deff;
+  --lav: #b57edc;
+}
+
+/* Tipografía general */
+body {
+  font-family: raleway;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8530048493026!2d-58.39436328477024!3d-34.607878380458445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac2f8c025d5%3A0x5e40f3109c6c76df!2sAv.%20Callao%20100%2C%20C1039%20CABA!5e0!3m2!1ses-419!2sar!4v1628782909506!5m2!1ses-419!2sar"
+width="100%"
+height="350"
+style="border: 0"
+allowfullscreen=""
+loading="lazy"
+></iframe> */
+
+/* Footer */
+footer {
+  width: 100%;
+  background: var(--lav);
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.anchoFooter {
+  margin-top: 30px;
+}
+
+.redes {
+  display: inline-block;
+}
+
+.bi-facebook {
+  /* font-size: 30px; */
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-whatsapp {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-whatsapp:hover {
+  color: #25d366;
+}
+
+.bi-instagram {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #fff;
+}
+
+.bi-instagram:hover {
+  color: #8a3ab9;
+}
